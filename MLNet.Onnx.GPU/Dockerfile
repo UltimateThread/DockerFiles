@@ -1,3 +1,7 @@
+# WINDOWS 10/11/Server BEFORE ANYTHING ELSE YOU NEED TO SET UP DOCKER ALLOW ACCESS YOUR NVIDIA GPU
+# Here is a good tutorial on how to get it set up
+# https://gregbouwens.com/docker-with-gpu-enabled-on-windows/
+
 # The Tensorrt NVIDIA base image has the CUDA and cuDNN versions needed for Microsoft.ML.OnnxRuntime.Gpu (1.10.0)
 # https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#requirements
 # CUDA 11.4
